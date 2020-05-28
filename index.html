@@ -35,13 +35,13 @@
                     <button class="delete" aria-label="delete"></button>
                 </div>
                  -->
-                <div class="message-body columns">
+                <div class="message-body columns" id="input-form">
 
                     <div class="field column is-2">
                         <label class="label is-small">time</label> 
                         <div class="control is-expanded">
                             <div class="select is-small is-fullwidth">
-                                <select>
+                                <select id="time-desc">
                                     <option>6.00am</option>
                                     <option>6.30am</option>
                                 </select>
@@ -53,7 +53,7 @@
                     <div class="field column is-6">
                         <label class="label is-small">activity</label>
                         <div class="control">
-                          <input class="input is-small" type="text" placeholder="text input">
+                          <input class="input is-small" type="text" placeholder="text input" id="activity-desc">
                         </div>
                         <p class="help">enter the schedule</p>
                     </div>
@@ -62,7 +62,7 @@
                         <label class="label is-small">type</label> 
                         <div class="control is-expanded">
                             <div class="select is-small is-fullwidth">
-                                <select>
+                                <select id="type-desc">
                                     <option>coding</option>
                                     <option>eating</option>
                                     <option>sleeping</option>
@@ -76,7 +76,7 @@
                     <div class="field column is-2">
                         <label class="label is-small">click here!</label> 
                         <div class="control is-expanded">
-                            <button class="button is-link is-small is-fullwidth"><i class="fas fa-paper-plane"></i>&nbsp;&nbsp;submit</button>
+                            <button class="button is-link is-small is-fullwidth" id="button"><i class="fas fa-paper-plane"></i>&nbsp;&nbsp;submit</button>
                         </div>
                     </div> 
 
@@ -101,17 +101,7 @@
                 </header>
                 <div class="card-content">
                     <div class="content">
-                        <ul>
-                            <li><strong>6.00am</strong> - Woke up</li>
-                            <li><strong>7.00am</strong> - Had breakfast and read Recode</li>
-                            <li><strong>8.00am</strong> - FCC algorithm warmup</li>
-                            <li><strong>10.30am</strong> - CS50 Week 7</li>
-                            <li><strong>1.00pm</strong> - Prepare and have my lunch</li>
-                            <li><strong>6.00am</strong> - Woke up</li>
-                            <li><strong>7.00am</strong> - Had breakfast and read Recode</li>
-                            <li><strong>8.00am</strong> - FCC algorithm warmup</li>
-                            <li><strong>10.30am</strong> - CS50 Week 7</li>
-                            <li><strong>1.00pm</strong> - Prepare and have my lunch</li>
+                        <ul id="daily-schedule">
                         </ul>
                     </div>
                 </div>
