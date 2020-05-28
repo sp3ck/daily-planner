@@ -22,3 +22,5 @@ OBJECTIVE:
     -   Time spent coding display
 4.  Journal entry
     -   Blog post creation on day's reflection
+
+https://sp3ck.github.io/daily-planner/
